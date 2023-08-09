@@ -19,7 +19,6 @@ public class Controle : MonoBehaviour
 
 
     [SerializeField] DialogueTrigger dialogueTrigger;
-    public DialogueManager dialogueManager;
     Rigidbody2D rb;                                                 //Referência a um Rigidbody
     Animator animator;                                              //Referência a um Animator
     [SerializeField] Text textoDialogado;
